@@ -1,7 +1,3 @@
-/*
-Copyright 2011, Christopher Patuzzo.
-All rights reserved.
-*/
 var activeMonth = 0;
 var today = new Date();
 var priorOverlap;

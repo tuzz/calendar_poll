@@ -39,15 +39,6 @@ float: left;
 float: right;
 }
 
-#copyright {
-color: #bbb;
-}
-
-#copyright a {
-color: #bbb;
-text-decoration: none;
-}
-
 #prior, #prior-alternate {
 font-size: 20px;
 padding-top: 10px;
