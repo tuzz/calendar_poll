@@ -1,0 +1,279 @@
+body {
+margin: 0px;
+padding: 0px;
+
+-webkit-user-select: none;
+}
+
+#header {
+background-color: #ddd;
+height: 50px;
+line-height: 50px;
+font-size: 40px;
+text-align: center;
+overflow: hidden;
+border-bottom: 1px solid #bbb;
+}
+
+#header a {
+color: black;
+text-decoration: none;
+}
+
+#wrap {
+width: 600px;
+padding: 20px;
+margin: auto;
+}
+
+#footer {
+text-align: center;
+margin-top: 20px;
+}
+
+#facebook {
+float: left;
+}
+
+#twitter {
+float: right;
+}
+
+#copyright {
+color: #bbb;
+}
+
+#copyright a {
+color: #bbb;
+text-decoration: none;
+}
+
+#prior, #prior-alternate {
+font-size: 20px;
+padding-top: 10px;
+padding-bottom: 20px;
+text-align: justify;
+clear: both;
+}
+
+#post, #post-alternate {
+clear: both;
+padding-top: 40px;
+font-size: 20px;
+}
+
+#prior-alternate, #post-alternate {
+display: none;
+}
+
+#link input {
+font-size: 20px;
+color: gray;
+width: 480px;
+}
+
+#link img {
+position: relative;
+top: 5px;
+display: none;
+}
+
+#name input {
+font-size: 20px;
+color: gray;
+width: 320px;
+}
+
+#name div {
+width: 69px;
+height: 26px;
+display: inline-block;
+padding-top: 7px;
+background-color: #eee;
+background-image: url("icons/button.png");
+color: #999;
+text-align: center;
+cursor: default;
+}
+
+#link div {
+text-align: center;
+padding-top: 10px;
+color: black;
+}
+
+#calendar {
+text-align: center;
+font-family: arial;
+color: black;
+width: 374px;
+height: 322px;
+margin: auto;
+cursor: default;
+
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+#calendar table {
+border-collapse: collapse;
+position: relative;
+background-color: white;
+}
+
+#calendar-header {
+border-left: 1px solid white;
+border-right: 1px solid white;
+float: left;
+}
+
+.calendar-arrow {
+font-family: courier new;
+font-weight: bold;
+font-size: 25px;
+color: #555;
+cursor: pointer;
+}
+
+#calendar-month {
+font-size: 25px;
+color: #333;
+}
+
+#calendar-header td {
+width: 50px;
+border-left: 1px solid white;
+border-right: 1px solid white;
+}
+
+#calendar-days {
+overflow: hidden;
+border: 1px solid #ccc;
+float: left;
+clear: both;
+color: gray;
+}
+
+#calendar-days td {
+width: 50px;
+height: 50px;
+border: 1px solid black;
+cursor: pointer;
+background-color: #eee;
+background-image: url("icons/gray.png");
+}
+
+.calendar-active {
+color: black;
+}
+
+.calendar-current {
+background-color: #999 !important;
+background-image: url("icons/darkgray.png") !important;
+}
+
+.calendar-selected {
+background-color: #ff3 !important;
+background-image: url("icons/yellow.png") !important;
+}
+
+.calendar-available {
+background-color: #3f3 !important;
+background-image: url("icons/green.png") !important;
+}
+
+.calendar-busy {
+background-color: #ff3c3c !important;
+background-image: url("icons/red.png") !important;
+}
+
+#calendar-menu {
+border-left: 1px solid white;
+border-right: 1px solid white;
+float: left;
+margin-top: 20px;
+}
+
+#calendar-menu td {
+width: 50px;
+border-left: 1px solid white;
+border-right: 1px solid white;
+padding-top: 0px;
+}
+
+#calendar-menu div {
+width: 69px;
+height: 26px;
+display: inline-block;
+margin: -1px 9px 0px 9px;
+padding-top: 7px;
+background-color: #eee;
+background-image: url("icons/button.png");
+color: #999;
+}
+
+#review {
+margin-top: 5px;
+clear: both;
+text-align: center;
+font-size: 18px;
+}
+
+#review a {
+color: #009;
+}
+
+#summary {
+clear: both;
+font-size: 20px;
+padding: 5px;
+padding-top: 20px;
+width: 580px;
+margin: auto;
+margin-top: 20px;
+border-top: 1px dashed gray;
+}
+
+#summary-day {
+font-weight: bold;
+}
+
+#summary-stats {
+float: right;
+}
+
+#summary-names {
+clear: both;
+margin-top: 20px;
+}
+
+.list-item {
+height: 20px;
+clear: both;
+border-bottom: 1px dashed gray;
+line-height: 20px;
+padding: 5px;
+}
+
+.list-day {
+font-weight: bold;
+}
+
+.list-stats {
+float: right;
+}
+
+.available {
+color: green;
+}
+
+.busy {
+color: red;
+}
+
+#advert {
+width: 728px;
+margin: auto;
+}

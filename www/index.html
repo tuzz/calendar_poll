@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta name="keywords" content="event planner, calendar poll, event, calendar, poll, schedule, organize, organise, plan, coordinate, collaborative, friends, shared, timetable, party, lunch, dinner, date, online, facebook"/>
+  <meta name="description" content="Are you planning an event, but can't decide when to have it? Why not let your friends decide... Calendar poll is simple, quick and free with no registration. Simply set up a calendar, link it to your friends and let them vote on the days that suit them."/>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=640"/>
+  <meta property="og:title" content="Calendar Poll" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://calendar-poll.com/" />
+  <meta property="og:image" content="http://calendar-poll.com/icons/logo.png" />
+  <meta property="og:site_name" content="Calendar Poll" />
+  <meta property="fb:admins" content="1187389909" />
+  <meta property="og:description" content="Are you planning an event, but can't decide when to have it? Why not let your friends decide..."/>
+
+  <title>Calendar Poll</title>
+  <link rel="stylesheet" type="text/css" href="calendar.css"/>
+
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <script type="text/javascript" src="jquery-1.6.1.min.js"></script>
+  <script type="text/javascript" src="calendar.min.js"></script>
+</head>
+
+<body>
+  <div id="header"><a href="http://calendar-poll.com">calendar-poll.com</a></div>
+  <!-- Website free of ads. -->
+  <!--<div id="advert">
+    <script type="text/javascript">
+      google_ad_client = "ca-pub-8032117581347744";
+      google_ad_slot = "8555463561";
+      google_ad_width = 728;
+      google_ad_height = 90;
+    </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+  </div>-->
+  <div id="wrap">
+    <div id="prior">Are you planning an event, but can't decide when to have it? Why not let your friends decide...<br/><br/>Use the calendar below, to select a few days on which your event could take place. You will be given a unique link that you may use to direct guests to your calendar. They can then set whether they are available or busy, for each day.</div>
+    <div id="prior-alternate">Someone is planning an event, but can't decide when to have it. They thought they'd let their friends decide...<br/><br/>Please set each of the highlighted days to either <span class="available">green, if you are available</span>, or <span class="busy">red, if you are busy</span>. If you're not sure, just leave it yellow. You can check that you haven't missed any days by using the 'First' and 'Last' buttons.</div>
+    <div id="calendar">
+      <div id="calendar-header">
+        <table>
+          <tr>
+            <td class="calendar-arrow">&lt;</td>
+            <td id="calendar-month" colspan="5"></td>
+            <td class="calendar-arrow">&gt;</td>
+          </tr>
+          <tr>
+            <td>Mon</td>
+            <td>Tue</td>
+            <td>Wed</td>
+            <td>Thu</td>
+            <td>Fri</td>
+            <td>Sat</td>
+            <td>Sun</td>
+          </tr>
+        </table>
+      </div>
+      <div id="calendar-days"></div>
+      <div id="calendar-menu">
+        <table>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr>
+            <td colspan="7">
+              <div id="calendar-today">Today</div>
+              <div id="calendar-clear">Clear</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="post">
+      <div id="link">
+        <span>Unique link:</span>
+        <input type="text" value="http://calendar-poll.com/"/>
+        <img src="icons/live.png"/>
+      </div>
+    </div>
+    <div id="post-alternate">
+      <div id="name">
+        <span>Please enter your name: </span>
+        <input type="text" value="Anonymous"/>
+        <div>Finish</div>
+      </div>
+      <div id="review">
+        (Click <a>here</a> if you wish to view the results, without submitting)
+      </div>
+    </div>
+    <div id="footer">
+      <iframe src="http://www.facebook.com/plugins/like.php?app_id=221806354522715&amp;href=http%3A%2F%2Fwww.calendar-poll.com%2F&amp;send=false&amp;layout=standard&amp;width=600&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:600px; height:80px;" allowTransparency="true"></iframe>
+    </div>
+  </div>
+</body>
+</html>
